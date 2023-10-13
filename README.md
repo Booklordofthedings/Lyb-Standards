@@ -5,7 +5,26 @@ No one needs to follow these, but I think they make for a good baseline and read
 There are reasons even someone who wants to follow these standards cant do that and thats fine.
 
 ## Index
+[Formatting Conventions](#Formatting-Conventions)
+[Gitignore](#Gitignore)
 [Keywords](#Keywords)
+
+## Formatting Conventions
+__Tabs vs Spaces:__
+Tabs are used, as its the default setting in alot of ide's aswell as in beef-ide.  
+
+__Curly Braces Positioning:__
+Curly braces go onto a new line. C# does it that way and it allows seeing the scope of braces better. There may be valid reasons where this is not the case, like having a ton of oneliner functions. Here a different formatting may be used to save space.  
+
+## Gitignore
+The common gitignore file for beef projects, includes some additional files for better coverage of common usecases
+```
+build/
+recovery/
+packages/
+dist/
+BeefSpace_User.toml
+```
 
 ## Keywords
 This lists some of the common names for specific variables and operations.
