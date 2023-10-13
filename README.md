@@ -5,9 +5,25 @@ No one needs to follow these, but I think they make for a good baseline and read
 There are reasons even someone who wants to follow these standards cant do that and thats fine.
 
 ## Index
-[Formatting Conventions](#Formatting-Conventions)
-[Gitignore](#Gitignore)
-[Keywords](#Keywords)
+[Naming Conventions](#Naming-Conventions)  
+[Formatting Conventions](#Formatting-Conventions)  
+[Gitignore](#Gitignore)  
+[Keywords](#Keywords)  
+
+## Naming Conventions
+| Type | Pattern | Explanation |
+| --- | --- | --- |
+| Class | ClassName | Classes always start with an uppercase name |
+| Struct | structName | Structs start lowercase |
+| Parameter | pParameter | Easy way to distinguish between function parameters and local values. |
+| Variable | variableName | How its done in alot of other languages |
+| Constants | CONSTANT_NAME | Easy differentiation for everyone | 
+| Interace | IInterfaceName | Interfaces start with an uppercase I, then the name also starting with an uppercase. They should also have the ending -able if possible (Parse-able, Query-able) |
+| Enum | eEnumName | Lowecase e because they are more like a value type. They should also get their own file if they arent only internally used in a single class |
+
+
+__Class & Struct Exception:__ Their naming depends on what they feel like (pass by ref/value) A small minor class may start lowercase and a big struct that only gets passed with pointers may start uppercase.
+
 
 ## Formatting Conventions
 __Tabs vs Spaces:__
