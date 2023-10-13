@@ -18,6 +18,7 @@ There are reasons even someone who wants to follow these standards cant do that 
 | Parameter | pParameter | Easy way to distinguish between function parameters and local values. |
 | Variable | variableName | How its done in alot of other languages |
 | Constants | CONSTANT_NAME | Easy differentiation for everyone | 
+| Private Variable/Function | _NamaeOfTheThing | Anything private starts with a _
 | Interace | IInterfaceName | Interfaces start with an uppercase I, then the name also starting with an uppercase. They should also have the ending -able if possible (Parse-able, Query-able) |
 | Enum | eEnumName | Lowecase e because they are more like a value type. They should also get their own file if they arent only internally used in a single class |
 
